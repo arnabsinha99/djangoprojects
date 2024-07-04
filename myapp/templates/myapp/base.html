@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'myapp/style.css' %}" />
+        <title>eBook APP - {% block title %}Welcome!{% endblock %}</title>
+    </head>
+
+    <body>
+        <div>
+            <h1>{% block myhdg %}Hello User {% endblock %}</h1>
+{#            <img src="{% static 'myapp/images/your_image_file.jpg' %}" alt="Description of the image" />#}
+            {% block body_block %}*** {% endblock %}
+        </div>
+        <hr />
+        <div>
+            <ul>
+                <li class="hbar1"><a href="/myapp/about/">Find out about this site</a></li>
+{#                <li class="hbar1"><a href = "{% url 'myapp:index' %}">Click here to return to main page</a><br/></li>#}
+            </ul>
+        </div>
+    </body>
+</html>

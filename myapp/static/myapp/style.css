@@ -1,0 +1,43 @@
+/* Define default background color, text color, and font size */
+body {
+    background-color: #f0f0f0;  /* Light grey background color */
+    color: #333;                /* Dark grey text color */
+    font-size: 16px;            /* Default font size */
+    font-family: Arial, sans-serif;  /* Default font family */
+}
+
+/* Define styles for <h1> tags */
+h1 {
+    color: #0056b3;  /* Dark blue color for <h1> */
+    font-size: 24px;  /* Font size for <h1> */
+    font-style: italic;  /* Italic style for <h1> */
+    position: relative;  /* Position for <h1> */
+}
+
+/* Define the .hbar1 class */
+.hbar1 {
+    display: inline;
+    margin: 15px;
+}
+
+/* Optional styles for other elements */
+p {
+    line-height: 1.6;  /* Line height for paragraphs */
+}
+
+a {
+    color: #007bff;  /* Link color */
+    text-decoration: none;  /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline;  /* Underline links on hover */
+}
+
+ol {
+    padding-left: 20px;  /* Padding for ordered lists */
+}
+
+li {
+    margin-bottom: 10px;  /* Margin for list items */
+}

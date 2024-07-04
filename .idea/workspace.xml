@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbb546a3-d456-4b1e-ac66-daec5c7bc994" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mysiteS24.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/migrations/0002_member.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/migrations/0003_book_description_publisher_country_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/static/myapp/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/about0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/detail0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/fb_results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/feedback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/findbooks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/order_response.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/placeorder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysiteS24/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysiteS24/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysiteS24/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysiteS24/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysiteS24/wsgi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2gmLFHwhbJGaXTzQrifWYfN9UYl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.mysiteS24.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/OneDrive/Desktop/UoW/Subject Materials/Internet Applications/mysiteS24&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="mysiteS24" type="Python.DjangoServer" factoryName="Django server">
+      <module name="mysiteS24" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mysiteS24.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbb546a3-d456-4b1e-ac66-daec5c7bc994" name="Changes" comment="" />
+      <created>1716297700442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716297700442</updated>
+      <workItem from="1716297702010" duration="3098000" />
+      <workItem from="1716758433906" duration="974000" />
+      <workItem from="1716900717991" duration="3803000" />
+      <workItem from="1717010112453" duration="2016000" />
+      <workItem from="1717504724606" duration="4294000" />
+      <workItem from="1717534845767" duration="386000" />
+      <workItem from="1718102941308" duration="11141000" />
+      <workItem from="1719194980745" duration="59000" />
+      <workItem from="1719320869163" duration="4282000" />
+      <workItem from="1719603422125" duration="4448000" />
+      <workItem from="1719924837727" duration="5820000" />
+      <workItem from="1719977676919" duration="6394000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mysiteS24/urls.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

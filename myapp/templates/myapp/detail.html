@@ -1,0 +1,10 @@
+<!-- mysiteS24/myapp/templates/myapp/detail.html -->
+{% extends 'myapp/base.html' %}
+
+{% block body_block %}
+    <h1>{{ book.title }}</h1>
+    <p>Price: {{ book.price }}</p>
+    <p>Publisher: {{ book.publisher }}</p>
+    <p>Description: {{ book.description }}</p>
+    <p><a href="{% url 'myapp:index' %}">Back to main page</a></p>
+{% endblock %}

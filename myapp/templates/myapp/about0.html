@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About eBook App</title>
+</head>
+<body>
+    <p>This is an eBook APP.</p>
+
+    <!-- Hardcoded URL link to the main page -->
+    <p><a href="/myapp/">Back to main page (hardcoded URL)</a></p>
+
+    <!-- URL namespacing link to the main page -->
+    <p><a href="{% url 'myapp:index' %}">Back to main page (URL namespacing)</a></p>
+</body>
+</html>
