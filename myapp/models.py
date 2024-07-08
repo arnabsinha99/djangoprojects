@@ -28,6 +28,7 @@ class Book(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     publisher = models.ForeignKey(Publisher, related_name='books', on_delete=models.CASCADE)
     description = models.TextField(blank=True, null=True)
+    num_reviews = models.PositiveIntegerField(default=0)
 
     def __str__(self):
         return f"{self.title} ({self.category})"
@@ -68,3 +69,14 @@ class Order(models.Model):
 
     def total_items(self):
         return self.books.count()
+
+
+class Review(models.Model):
+    reviewer = models.EmailField()
+    book = models.ForeignKey(Book, on_delete=models.CASCADE)
+    rating = models.PositiveIntegerField()
+    comments = models.TextField(blank=True, null=True)
+    date = models.DateField(default=timezone.now)
+
+    def __str__(self):
+        return f"{self.reviewer} - {self.date}"

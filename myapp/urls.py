@@ -10,4 +10,5 @@ urlpatterns = [
     path('feedback/', views.getFeedback, name='feedback'),  # Added path for feedback
     path('findbooks/', views.findbooks, name='findbooks'),  # Added path for findbooks
     path('place_order/', views.place_order, name='place_order'),
+    path('review/', views.review, name='review'),  # Add this line
     ]

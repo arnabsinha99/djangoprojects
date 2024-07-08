@@ -11,6 +11,8 @@
             {% endfor %}
         </ol>
         <a href="{% url 'myapp:place_order' %}">Place an Order</a>
+        <br>
+        <a href="{% url 'myapp:review' %}">Submit a Review</a>
     {% else %}
         <strong>There are no available books!</strong>
     {% endif %}

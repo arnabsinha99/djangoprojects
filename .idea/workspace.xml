@@ -4,44 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb546a3-d456-4b1e-ac66-daec5c7bc994" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mysiteS24.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/0002_member.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/0003_book_description_publisher_country_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/static/myapp/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/about0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/detail0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/fb_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/feedback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/findbooks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/order_response.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/placeorder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysiteS24/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysiteS24/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysiteS24/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysiteS24/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysiteS24/wsgi.py" afterDir="false" />
+    <list default="true" id="cbb546a3-d456-4b1e-ac66-daec5c7bc994" name="Changes" comment="Initial push">
+      <change afterPath="$PROJECT_DIR$/myapp/migrations/0004_book_num_reviews.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/migrations/0005_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/migrations/0006_alter_review_comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/templates/myapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/templates/myapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,23 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.mysiteS24.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/OneDrive/Desktop/UoW/Subject Materials/Internet Applications/mysiteS24&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.mysiteS24.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Admin/OneDrive/Desktop/UoW/Subject Materials/Internet Applications/mysiteS24",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="mysiteS24" type="Python.DjangoServer" factoryName="Django server">
       <module name="mysiteS24" />
@@ -100,12 +75,13 @@
         <env name="DJANGO_SETTINGS_MODULE" value="mysiteS24.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.8 (mysiteS24)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
+      <option name="port" value="8001" />
       <option name="host" value="localhost" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -143,12 +119,26 @@
       <workItem from="1719320869163" duration="4282000" />
       <workItem from="1719603422125" duration="4448000" />
       <workItem from="1719924837727" duration="5820000" />
-      <workItem from="1719977676919" duration="6394000" />
+      <workItem from="1719977676919" duration="28329000" />
+      <workItem from="1720231148208" duration="7004000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial push">
+      <option name="closed" value="true" />
+      <created>1720093159971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720093159971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

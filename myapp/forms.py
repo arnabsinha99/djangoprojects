@@ -1,6 +1,6 @@
 from django import forms
 
-from myapp.models import Book, Order
+from myapp.models import Book, Order, Review
 
 
 class FeedbackForm(forms.Form):
@@ -8,7 +8,11 @@ class FeedbackForm(forms.Form):
         ('B', 'Borrow'),
         ('P', 'Purchase'),
     ]
-    feedback = forms.ChoiceField(choices=FEEDBACK_CHOICES)
+    feedback = forms.MultipleChoiceField(
+        choices=FEEDBACK_CHOICES,
+        widget=forms.CheckboxSelectMultiple,
+        label="Select your feedback"
+    )
 
 
 class SearchForm(forms.Form):
@@ -37,3 +41,16 @@ class OrderForm(forms.ModelForm):
         fields = ['books', 'member', 'order_type']
         widgets = {'books': forms.CheckboxSelectMultiple(), 'order_type':forms.RadioSelect}
         labels = {'member': u'Member name', }
+
+
+class ReviewForm(forms.ModelForm):
+    class Meta:
+        model = Review
+        fields = ['reviewer', 'book', 'rating', 'comments']
+        widgets = {
+            'book': forms.RadioSelect()
+        }
+        labels = {
+            'reviewer': 'Please enter a valid email',
+            'rating': 'Rating: An integer between 1 (worst) and 5 (best)'
+        }

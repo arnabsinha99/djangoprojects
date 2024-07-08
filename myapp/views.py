@@ -1,8 +1,8 @@
 from django.shortcuts import render
-from django.shortcuts import render, get_object_or_404
-from .models import Publisher, Book, Member, Order
+from django.shortcuts import render, redirect, get_object_or_404
+from .models import Publisher, Book, Member, Order, Review
 from django.http import HttpResponse
-from .forms import FeedbackForm, SearchForm, OrderForm
+from .forms import FeedbackForm, SearchForm, OrderForm, ReviewForm
 
 
 # Create your views here.
@@ -25,12 +25,12 @@ def getFeedback(request):
         form = FeedbackForm(request.POST)
         if form.is_valid():
             feedback = form.cleaned_data['feedback']
-            if feedback == 'B':
-                choice = ' to borrow books.'
-            elif feedback == 'P':
-                choice = ' to purchase books.'
-            else:
-                choice = ' None.'
+            choices = []
+            if 'B' in feedback:
+                choices.append('to borrow books')
+            if 'P' in feedback:
+                choices.append('to purchase books')
+            choice = ', '.join(choices) if choices else 'None'
             return render(request, 'myapp/fb_results.html', {'choice': choice})
         else:
             return HttpResponse('Invalid data')
@@ -78,3 +78,25 @@ def place_order(request):
     else:
         form = OrderForm()
         return render(request, 'myapp/placeorder.html', {'form':form})
+
+
+def review(request):
+    if request.method == 'POST':
+        form = ReviewForm(request.POST)
+        if form.is_valid():
+            rating = form.cleaned_data['rating']
+            if 1 <= rating <= 5:
+                new_review = form.save(commit=False)
+                book = new_review.book
+                book.num_reviews += 1
+                book.save()
+                new_review.save()
+                return redirect('myapp:index')
+            else:
+                return render(request, 'myapp/review.html', {'form': form, 'error_message': 'You must enter a rating '
+                                                                                            'between 1 and 5!'})
+        else:
+            return render(request, 'myapp/review.html', {'form': form})
+    else:
+        form = ReviewForm()
+        return render(request, 'myapp/review.html', {'form': form})
