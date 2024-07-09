@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb546a3-d456-4b1e-ac66-daec5c7bc994" name="Changes" comment="Initial push">
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/0004_book_num_reviews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/0005_review.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/0006_alter_review_comments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/review.html" afterDir="false" />
+    <list default="true" id="cbb546a3-d456-4b1e-ac66-daec5c7bc994" name="Changes" comment="changes 07 July">
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/chk_reviews.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/myapp/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/templates/myapp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/templates/myapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
     </list>
@@ -120,7 +113,9 @@
       <workItem from="1719603422125" duration="4448000" />
       <workItem from="1719924837727" duration="5820000" />
       <workItem from="1719977676919" duration="28329000" />
-      <workItem from="1720231148208" duration="7004000" />
+      <workItem from="1720231148208" duration="8600000" />
+      <workItem from="1720484863951" duration="2174000" />
+      <workItem from="1720533413544" duration="5110000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <option name="closed" value="true" />
@@ -130,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720093159971</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes 07 July">
+      <option name="closed" value="true" />
+      <created>1720404522400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720404522400</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +141,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial push" />
+    <MESSAGE value="changes 07 July" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 07 July" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

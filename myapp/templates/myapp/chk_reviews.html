@@ -1,0 +1,11 @@
+{% extends 'myapp/base.html' %}
+
+{% block body_block %}
+    <h1>Check Reviews</h1>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% else %}
+        <p>Average rating for "{{ book.title }}": {{ avg_rating|floatformat:1 }}</p>
+    {% endif %}
+    <p><a href="{% url 'myapp:index' %}">Back to Main Page</a></p>
+{% endblock %}
