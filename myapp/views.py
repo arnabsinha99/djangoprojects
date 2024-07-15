@@ -2,6 +2,9 @@ from django.db.models import Avg
 from django.shortcuts import render
 from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse
+from django.utils import timezone
+import random
+from datetime import datetime, timedelta
 
 from .models import Publisher, Book, Member, Order, Review
 from django.http import HttpResponse, HttpResponseRedirect
@@ -13,11 +16,28 @@ from django.contrib.auth.decorators import login_required, user_passes_test
 # Create your views here.
 def index(request):
     booklist = Book.objects.all().order_by('id')[:10]
-    return render(request, 'myapp/index.html', {'booklist': booklist})
+    last_login = request.session.get('last_login')
+    if last_login:
+        message = f"Your last login was on {last_login}"
+    else:
+        message = "Your last login was more than one hour ago"
+    return render(request, 'myapp/index.html', {'booklist': booklist, 'message': message})
 
 
 def about(request):
-    return render(request, 'myapp/about.html')
+    lucky_num = request.COOKIES.get('lucky_num')
+    if lucky_num:
+        mynum = lucky_num
+    else:
+        mynum = random.randint(1, 100)
+
+    response = render(request, 'myapp/about.html', {'mynum': mynum})
+
+    if not lucky_num:
+        expiry_time = datetime.utcnow() + timedelta(minutes=5)
+        response.set_cookie('lucky_num', mynum, expires=expiry_time)
+
+    return response
 
 
 def detail(request, book_id):
@@ -116,6 +136,8 @@ def user_login(request):
         if user:
             if user.is_active:
                 login(request, user)
+                request.session['last_login'] = str(timezone.now())
+                request.session.set_expiry(3600)  # 1 hour
                 return HttpResponseRedirect(reverse('myapp:index'))
             else:
                 return HttpResponse('Your account is disabled.')

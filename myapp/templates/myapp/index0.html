@@ -1,10 +1,11 @@
-{% extends 'myapp/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eBook App</title>
+</head>
+<body>
 
-{% block myhdg %}Hello Arnab Sinha{% endblock %}
-
-{% block body_block %}
-    <p>{{ message }}</p>
-    <br/>
     {% if booklist %}
         <h2>List of Books</h2>
         <ol>
@@ -12,13 +13,14 @@
                 <li><a href="{% url 'myapp:detail' book.id %}">{{ book.title }}</a></li>
             {% endfor %}
         </ol>
-        <a href="{% url 'myapp:place_order' %}">Place an Order</a>
-        <br>
-        <a href="{% url 'myapp:review' %}">Submit a Review</a>
+
     {% else %}
         <strong>There are no available books!</strong>
     {% endif %}
 
 {#    <p><a href="/myapp/about">About page</a></p>#}
-{#    <p><a href="{% url 'myapp:about' %}">About page</a></p>#}
-{% endblock %}
+    <p><a href="{% url 'myapp:about' %}">About page</a></p>
+
+</body>
+
+</html>
