@@ -51,6 +51,9 @@ class Member(User):
     def __str__(self):
         return f"{self.username} - {self.get_status_display()}"
 
+    class Meta:
+        verbose_name = 'Member'
+
 class Order(models.Model):
     PURCHASE = 0
     BORROW = 1
@@ -69,6 +72,8 @@ class Order(models.Model):
 
     def total_items(self):
         return self.books.count()
+
+    total_items.short_description = 'Total Books'
 
 
 class Review(models.Model):
