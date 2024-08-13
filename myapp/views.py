@@ -24,6 +24,7 @@ def index(request):
     return render(request, 'myapp/index.html', {'booklist': booklist, 'message': message})
 
 
+@login_required
 def about(request):
     lucky_num = request.COOKIES.get('lucky_num')
     if lucky_num:
@@ -34,7 +35,7 @@ def about(request):
     response = render(request, 'myapp/about.html', {'mynum': mynum})
 
     if not lucky_num:
-        expiry_time = datetime.utcnow() + timedelta(minutes=5)
+        expiry_time = datetime.utcnow() + timedelta(seconds=60)
         response.set_cookie('lucky_num', mynum, expires=expiry_time)
 
     return response
@@ -138,6 +139,7 @@ def user_login(request):
                 login(request, user)
                 request.session['last_login'] = str(timezone.now())
                 request.session.set_expiry(3600)  # 1 hour
+                print(request.session.keys())
                 return HttpResponseRedirect(reverse('myapp:index'))
             else:
                 return HttpResponse('Your account is disabled.')
